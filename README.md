@@ -66,7 +66,7 @@ npm run build
 
 This project is deployed on Vercel:
 
-**Live URL:** [resume-phuriphat-hemakul]([https://resume-phuriphat-hemakul.vercel.app/](https://portfolio-weld-two-evr3pfap9o.vercel.app/))
+**Live URL:** [resume-phuriphat-hemakul]([https://resume-phuriphat-hemakul.vercel.app/](https://portfolio-weld-two-evr3pfap9o.vercel.app/])
 
 ## 👤 About Me
 
