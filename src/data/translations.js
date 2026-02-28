@@ -78,10 +78,28 @@ export const translations = {
             viewCode: 'ดูโค้ด',
             list: [
                 {
+                    title: 'Nurse Station Dashboard',
+                    description: 'ระบบ Dashboard สำหรับจัดการสถานะผู้ป่วยและการแจ้งเตือนในห้องพยาบาล',
+                    tags: ['React', 'Firebase', 'Vite'],
+                    link: 'https://github.com/PhuriphatiZAMU/Nurse-Station-Dashboard',
+                },
+                {
+                    title: 'Nurse Station Monitor',
+                    description: 'หน้าจอ Monitor แสดงผลแบบ Real-time สำหรับติดตามข้อมูลผู้ป่วยในวอร์ด',
+                    tags: ['React', 'Real-time', 'WebSocket'],
+                    link: 'https://github.com/PhuriphatiZAMU/Nurse-Station-Monitor',
+                },
+                {
                     title: 'RoV SN Tournament Official',
                     description: 'เว็บไซต์จัดการทัวร์นาเมนต์ RoV พร้อม Admin Dashboard และระบบจัดการทีม/ผลการแข่งขัน',
                     tags: ['React', 'TypeScript', 'Node.js', 'MongoDB'],
                     link: 'https://github.com/PhuriphatiZAMU/RoV-SN-Tournament-Official',
+                },
+                {
+                    title: 'Valentine\'s Day Surprise',
+                    description: 'เว็บแอปโต้ตอบสำหรับวันวาเลนไทน์พร้อมลูกเล่นการตอบกลับและ Animation',
+                    tags: ['HTML', 'CSS', 'JavaScript'],
+                    link: 'https://github.com/PhuriphatiZAMU/Valentine-s-Day-Surprise',
                 },
                 {
                     title: 'PlayMateZ',
@@ -118,12 +136,6 @@ export const translations = {
                     description: 'SPA Fansite พร้อม Client-Side Router, 3D Carousel, Glassmorphism และ Flip Cards',
                     tags: ['JavaScript', 'SPA', 'CSS3'],
                     link: 'https://github.com/PhuriphatiZAMU/JujutsuKaisenFansite',
-                },
-                {
-                    title: 'Christmas Gift Exchange',
-                    description: 'เว็บแอป Secret Santa จับฉลากแลกของขวัญ พร้อม Confetti Animation',
-                    tags: ['HTML', 'CSS', 'JavaScript'],
-                    link: 'https://github.com/PhuriphatiZAMU/Christmas-Gift-Exchange',
                 },
             ],
         },
@@ -211,10 +223,28 @@ export const translations = {
             viewCode: 'View Code',
             list: [
                 {
+                    title: 'Nurse Station Dashboard',
+                    description: 'Dashboard system for managing patient status and alerts in nurse stations',
+                    tags: ['React', 'Firebase', 'Vite'],
+                    link: 'https://github.com/PhuriphatiZAMU/Nurse-Station-Dashboard',
+                },
+                {
+                    title: 'Nurse Station Monitor',
+                    description: 'Real-time monitor display for tracking patient data in the ward',
+                    tags: ['React', 'Real-time', 'WebSocket'],
+                    link: 'https://github.com/PhuriphatiZAMU/Nurse-Station-Monitor',
+                },
+                {
                     title: 'RoV SN Tournament Official',
                     description: 'Full-stack RoV Tournament Website with Admin Dashboard, Team Management and Match Results',
                     tags: ['React', 'TypeScript', 'Node.js', 'MongoDB'],
                     link: 'https://github.com/PhuriphatiZAMU/RoV-SN-Tournament-Official',
+                },
+                {
+                    title: 'Valentine\'s Day Surprise',
+                    description: 'Interactive Valentine\'s Day web app with replies and animations',
+                    tags: ['HTML', 'CSS', 'JavaScript'],
+                    link: 'https://github.com/PhuriphatiZAMU/Valentine-s-Day-Surprise',
                 },
                 {
                     title: 'PlayMateZ',
@@ -251,12 +281,6 @@ export const translations = {
                     description: 'SPA Fansite with Client-Side Router, 3D Carousel, Glassmorphism and Flip Cards',
                     tags: ['JavaScript', 'SPA', 'CSS3'],
                     link: 'https://github.com/PhuriphatiZAMU/JujutsuKaisenFansite',
-                },
-                {
-                    title: 'Christmas Gift Exchange',
-                    description: 'Secret Santa Web App with Derangement Algorithm and Confetti Animation',
-                    tags: ['HTML', 'CSS', 'JavaScript'],
-                    link: 'https://github.com/PhuriphatiZAMU/Christmas-Gift-Exchange',
                 },
             ],
         },

@@ -204,7 +204,7 @@ function App() {
   };
 
   const stats = [
-    { number: '12+', label: lang === 'th' ? 'โปรเจกต์' : 'Projects' },
+    { number: '15+', label: lang === 'th' ? 'โปรเจกต์' : 'Projects' },
     { number: '3.58', label: 'GPA' },
     { number: '4+', label: lang === 'th' ? 'ภาษาโปรแกรม' : 'Languages' },
     { number: '2', label: lang === 'th' ? 'ปีการศึกษา' : 'Year' },
@@ -436,9 +436,6 @@ function App() {
                     <span className="skill-name">{t.skills.language.english}</span>
                     <span className="skill-level">{t.skills.language.englishLevel}</span>
                   </div>
-                  <div className="skill-bar">
-                    <div className="skill-progress" style={{ '--progress': '60%' }}></div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -451,47 +448,29 @@ function App() {
 
               <div className="skill-category">
                 <div className="skill-category-title">{t.skills.technical.programming}</div>
-                {skills.programming.map((skill, i) => (
-                  <div key={i} className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-level">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div className="skill-progress" style={{ '--progress': `${skill.level}%` }}></div>
-                    </div>
-                  </div>
-                ))}
+                <div className="skill-tags">
+                  {skills.programming.map((skill, i) => (
+                    <span key={i} className="skill-tag">{skill.name}</span>
+                  ))}
+                </div>
               </div>
 
               <div className="skill-category">
                 <div className="skill-category-title">{t.skills.technical.web}</div>
-                {skills.web.map((skill, i) => (
-                  <div key={i} className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-level">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div className="skill-progress" style={{ '--progress': `${skill.level}%` }}></div>
-                    </div>
-                  </div>
-                ))}
+                <div className="skill-tags">
+                  {skills.web.map((skill, i) => (
+                    <span key={i} className="skill-tag">{skill.name}</span>
+                  ))}
+                </div>
               </div>
 
               <div className="skill-category">
                 <div className="skill-category-title">{t.skills.technical.tools}</div>
-                {skills.tools.map((skill, i) => (
-                  <div key={i} className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-level">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div className="skill-progress" style={{ '--progress': `${skill.level}%` }}></div>
-                    </div>
-                  </div>
-                ))}
+                <div className="skill-tags">
+                  {skills.tools.map((skill, i) => (
+                    <span key={i} className="skill-tag">{skill.name}</span>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
